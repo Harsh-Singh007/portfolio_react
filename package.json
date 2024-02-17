@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "boxicons": "^2.1.4",
+    "react-router-dom": "^6.22.1",
+    "react-social-icons": "^6.12.0"
+  }
+}
