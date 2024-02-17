@@ -1,0 +1,9 @@
+.error{
+    min-height: 70vh;
+  padding: 10rem 9% 2rem;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+ 
+    background: var(--second-bg-color);
+}

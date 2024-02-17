@@ -8,6 +8,7 @@ import { Services } from './Component/Services';
 import { Project } from './Component/Project';
 import { Contact } from './Component/Contact';
 import { Footer } from './Component/Footer';
+import { Error } from './Component/Error';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/services" element={<Services/>} />
         <Route path="/projects" element={<Project/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="*" element={<Error/>} />
         </Routes>
         <Footer/>
         </Router>
