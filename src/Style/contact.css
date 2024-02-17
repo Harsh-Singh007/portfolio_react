@@ -1,0 +1,20 @@
+.contact {
+    
+    min-height: 90.5vh;
+    padding: 10rem 9% 2rem;
+    background-color: var(--second-bg-color);
+     
+      text-align: center;
+    }
+  .contact h2{
+      margin-bottom: 3rem;
+  }
+  .contact h1 a{
+      color:skyblue;
+  }
+  .contact h1 {
+
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 20px;
+  }

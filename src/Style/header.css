@@ -1,0 +1,50 @@
+.header
+ {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+ }   
+
+ .header .sticky
+ {
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+ }
+
+ .logo
+ {
+      font-size: 2.5rem;
+      color: var(--text-color);
+      font-weight: 600;
+      cursor: default;  
+      list-style: none;
+ }
+ .navbar{
+    display: flex;
+ }
+ a{
+      text-decoration: none;
+      color: var(--text-color);
+   
+ }
+ .navbar li{
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: .3s;
+  list-style: none;
+ }
+ .navbar li a:hover
+{
+  color: var(--main-color);
+}
+
+
+ 
